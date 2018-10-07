@@ -1,0 +1,26 @@
+# /etc/conf.d/tixoncashd: config file for /etc/init.d/tixoncashd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/tixoncash/tixoncash.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/tixoncashd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/tixoncashd.pid"
+
+# Where to write tixoncashd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/tixoncashd"
+
+# User and group to own tixoncashd process
+#BITCOIND_USER="tixoncash"
+#BITCOIND_GROUP="tixoncash"
+
+# Path to tixoncashd executable
+#BITCOIND_BIN="/usr/bin/tixoncashd"
+
+# Nice value to run tixoncashd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
