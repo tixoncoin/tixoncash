@@ -53,7 +53,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (1, uint256("0x4c000f530eae927060901517a790b0ff42abc65d8e8e7e07e651f9709824f6ff"));
+    (0, uint256("0x4c000f530eae927060901517a790b0ff42abc65d8e8e7e07e651f9709824f6ff"));
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -92,9 +92,9 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0xa6;
+        pchMessageStart[0] = 0xb6;
         pchMessageStart[1] = 0xb3;
-        pchMessageStart[2] = 0xcd;
+        pchMessageStart[2] = 0xdd;
         pchMessageStart[3] = 0x8d;
         vAlertPubKey = ParseHex("04d2df519f53e2eaa4a7d7ff3347a360520c2f4b8f07d0241b5b6ba5ce8e3d6ecba5443696473a387adff27aa6bb72b952ff23026e088cff9f47cbb387ed52c326");
         nDefaultPort = 9433;
