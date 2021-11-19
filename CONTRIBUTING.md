@@ -1,4 +1,4 @@
-Contributing to Tixoncash Core
+ccContributing to Tixoncash Core
 ==================================
 
 The Tixoncash Core project operates an open contributor model where anyone is
